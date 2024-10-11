@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+/* Photograph Section */
+.phobackground {
+    background-color: #ffffff !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.phonav {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000 !important;
+    margin-bottom: 10px;
+}
+
+/* Descriptions (Text) */
+.pholine1, .pholine2, .pholine3 {
+    width: 600px;
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-left: -620px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 15px;}
+
+/* User Cards */
+.full-content-up {
+   margin-top: 30px;
+}
+
+/* Individual Card */
+.phocard1, .phocard2, .phocard3, .phocard4 {
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 90%;
+    height: fit-content;
+    border: 5px solid black;
+    background: white !important;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #343a40;
+}
+
+.phobackground1 {
+   background-image: linear-gradient(120deg, #37a4ec, #070808 100%);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture */
+.profile-pic-up {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #3498db;
+}
+
+/* Profile Name and Role */
+.photext1 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.photext3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* Information Sections */
+.info-row-up {
+    font-size: 1rem;
+    color: #007bff;
+    margin-top: 1rem;
+}
+
+.info-value-up {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+/* Social Icons */
+.social-icons-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons-up .chat-up,
+.social-icons-up .video-up,
+.social-icons-up .record-up {
+    font-size: 50px;
+    margin: 0 10px;
+    gap: 50px;
+    display: flex;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons-up .chat-up {
+    color: #241bcf;
+}
+
+.social-icons-up .video-up {
+    color: #149131;
+}
+
+.social-icons-up .record-up {
+    color: #ff4757;
+}
+
+.social-icons-up .chat-up:hover,
+.social-icons-up .video-up:hover,
+.social-icons-up .record-up:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+    .pholine1, .pholine2, .pholine3 {
+        width: 90%;
+    }
+    
+    .full-content-up {
+        flex-direction: column;
+    }
+    
+    .phocard1, .phocard2, .phocard3, .phocard4 {
+        width: 100%;
+    }
+}
+.phobackground {
+    background-color: #061b30; /* Adjust this color as needed */
+    padding: 20px 0; /* Padding for top and bottom */
+  }
+  
+  .phonav {
+    color: white; /* Change text color */
+    text-align: center;
+    font-size: 2em; /* Adjust font size */
+  }
+  
+  .phocard1 {
+    margin-bottom: 20px; /* Adjust this value to increase or decrease the gap */
+  }
+  
+  @media (min-width: 768px) {
+    .phocard1 {
+      margin-bottom: 30px; /* Different gap for larger screens */
+    }
+  }
+  
+  /* Additional styles as needed */
+  

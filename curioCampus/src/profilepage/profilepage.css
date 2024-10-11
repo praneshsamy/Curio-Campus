@@ -1,0 +1,665 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body {
+  background: #f0f4f8;
+} */
+
+.profile-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #2c3e50;
+  width: 280px;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: width 0.3s ease;
+}
+
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar .logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background 0.3s;
+  background-color: black;
+}
+
+.nav-link i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background: #34495e;
+}
+
+.logout {
+  margin-top: auto;
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.main {
+  margin-left: 280px;
+  padding: 40px;
+  flex: 1;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pro {
+  color: #34495e;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  margin-left: 10px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Subtle border */
+}
+
+.profile-data {
+  margin-bottom: 15px;
+}
+
+.form-label-2 {
+  font-weight: 500;
+  color: #34495e; /* Darker color for better readability */
+}
+
+.form-input-2 {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.submit-button{
+  background-color: #000000; /* Primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 396px;
+   */
+   width: 45%;
+   margin-top: 5px;
+  transition: background-color 0.3s;
+}
+.submit-button-2 {
+  background-color: #1c6ea4; /* Primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 396px;
+   */
+   width: 45%;
+   margin-top: 5px;
+  transition: background-color 0.3s;
+}
+.submit-button-12 {
+  background-color: #1c6ea4; /* Primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 396px;
+   */
+   width: 45%;
+   margin-top: 5px;
+  transition: background-color 0.3s;
+}
+.submit-button112 {
+  background-color: #ffffff; /* Primary color */
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 396px;
+   */
+   width: 45%;
+   margin-top: 5px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #1c6ea4; /* Darken on hover */
+}
+/* .submit-button-2:hover {
+  background-color: #1c6ea4; /* Darken on hover */
+
+
+.share-skill-button {
+  background-color: #00b51f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 121px;
+}
+
+.share-skill-button:hover {
+  background-color: #2980b9; /* Darken on hover */
+}
+
+.share-skill-form {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f5f7fa; /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.skills-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between; /* Align items to opposite ends */
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #000000; /* Blue color for skill name */
+  flex: 1; /* Allow skill name to take up space */
+}
+
+.skill-details {
+  display: flex;
+  flex-direction: column; /* Stack details vertically */
+  flex: 1; /* Allow details to take up remaining space */
+  align-items: flex-start; /* Align details to the start (left) */
+}
+
+.skill-experience,
+.skill-qualifications,
+.skill-languages {
+  font-size: 0.9rem;
+  color: #555; /* Darker gray for other details */
+}
+
+.skill-status {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.status-text {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.fa-check-circle {
+  color: green; /* Green for approved status */
+}
+
+.fa-times-circle {
+  color: red; /* Red for not approved status */
+}
+
+.fa-clock {
+  color: orange; /* Orange for pending status */
+}
+
+
+.profile-pic {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures image covers the container */
+}
+
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .main {
+    margin-left: 100px;
+  }
+
+  .profile-data,
+  .skills-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .main {
+    margin-left: 100px;
+  }
+
+  .profilediv,
+  .main-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edit-button {
+    right: 0;
+  }
+}
+/* Button Styles */
+.share-skill-button {
+  background-color: #3498db; /* Blue color */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.share-skill-button:hover {
+  background-color: #2980b9; /* Darker blue */
+  transform: scale(1.05);
+}
+
+/* Profile Form */
+.profile-form {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.submit-button,
+.cancel-button {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover,
+.cancel-button:hover {
+  background-color: #1c6ea4; /* Darker blue */
+  transform: scale(1.05);
+}
+
+.cancel-button {
+  background-color: #e74c3c; /* Red color */
+}
+
+.cancel-button:hover {
+  background-color: #c0392b; /* Darker red */
+}
+
+/* Positioning Submit and Cancel Buttons at the Bottom */
+.profile-info.edit-mode .form-actions {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+/* General Styles */
+.share-skill-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  animation: fadeIn 1s ease-out;
+}
+
+/* Preview Styles */
+.preview-container {
+  margin-top: 10px;
+}
+
+.preview-image {
+  max-width: 10%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pdf-preview {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.pdf-preview:hover {
+  text-decoration: underline;
+}
+
+/* Other Styles */
+.share-skill-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  animation: slideIn 0.5s ease-out;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.checkbox-group, .experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.checkbox-group label, .experience-list li label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.checkbox-group input, .experience-list input {
+  accent-color: #007bff; /* Custom checkbox and radio color */
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-list li {
+  margin-right: 20px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  background-color: #004494;
+  transform: translateY(1px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* ProfilePage.css */
+/* ProfilePage.css */
+
+.profile-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.form-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-mode {
+  min-height: 400px; /* Adjust height as needed */
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button, .cancel-button, .edit-button, .share-skill-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 45%;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.share-skill-button {
+  margin-top: 20px;
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.share-skill-form {
+  margin-top: 20px;
+}
+
+.checkbox-group label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.image-preview {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+.pdf-preview {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+
+.skills-section {
+  margin-top: 20px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-status {
+  font-weight: bold;
+}
+
+.skill-status.not-approved {
+  color: red;
+}
+
+.skill-status.approved {
+  color: green;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+/* Gaming Section */
+.gambackground {
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gamnav {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Descriptions (Text) */
+.gamline1, .gamline2, .gamline3 {
+    width: 600px;
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-left: -620px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+/* Individual Card */
+.gamcard1, .gamcard2, .gamcard3, .gamcard4 {
+    margin-left: 20px;
+    margin-top:  60px; /* Space between cards */
+    width: 90%;
+    height: fit-content;
+    border: 2px solid #bbb;
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgb(18,97,89);
+    color: #f5ebeb; /* Ensuring text is readable against the dark background */
+    transition: transform 0.2s ease;
+    background-color: white !important;
+}
+
+.gamcard1:hover, .gamcard2:hover, .gamcard3:hover, .gamcard4:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Picture */
+.profile-pic-up {
+    margin-top: 10px !important;
+    width: 100px !important; /* Size of the profile picture */
+    height: 90px !important;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #3498db;
+}
+
+/* Profile Name and Role */
+.gamtext1 {
+    font-size: 1.5rem; /* Larger font for username */
+    text-align: center;
+    color: #5c5454; /* Light text color */
+    margin-bottom: 0.5rem; /* Space below the username */
+}
+
+.gamtext3 {
+    text-align: center;
+    font-size: 1.2rem; /* Slightly larger for skills */
+    color: #777171; /* Muted light gray */
+}
+
+/* Ratings */
+.info-row-up {
+    font-size: 1rem; /* Standard size for headings */
+    color: #007bff; /* Blue for headings */
+    margin-top: 1rem; /* Space above the headings */
+}
+
+.info-value-up {
+    font-size: 1rem; /* Standard size for values */
+    color: #f5ebeb; /* Light text for values */
+    margin-bottom: 0.5rem; /* Space below the values */
+}
+
+/* Social Icons */
+.social-icons-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons-up .chat-up, 
+.social-icons-up .video-up, 
+.social-icons-up .record-up {
+    font-size: 50px; /* Size of social icons */
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons-up .chat-up {
+    color: #241bcf; /* Color for chat icon */
+}
+
+.social-icons-up .video-up {
+    color: #149131; /* Color for video icon */
+}
+
+.social-icons-up .record-up {
+    color: #ff4757; /* Color for record icon */
+}
+.social-icons-up .chat-up:hover{
+    color: rgb(106, 106, 175) !important;
+    
+}
+.social-icons-up .video-up:hover{
+    color: rgb(53, 117, 81) !important;
+
+}
+
+.social-icons-up .record-up:hover{
+    color: #a7414a !important;
+}
+
+
+/* .social-icons-up .record-up:hover {
+    transform: scale(7.2); 
+} */
+.gamcard1 {
+    margin-bottom: 20px; /* Adjust this value to increase or decrease the gap */
+  }
+  
+  @media (min-width: 768px) {
+    .gamcard1 {
+      margin-bottom: 30px; /* Different gap for larger screens */
+    }
+  }
+  
+  /* Add any other styles needed for your component */
+  

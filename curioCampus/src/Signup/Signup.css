@@ -1,0 +1,428 @@
+.form {
+    height: 650px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.loginimg {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.signup-header {
+    color: white;
+    margin-bottom: -55px;
+    margin-top: 50px;
+    margin-left: 160px;
+    font-size: 61px;
+}
+
+.back {
+    height: 700px;
+    background-color:#061b30;
+
+}
+
+::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form button {
+    align-self: flex-end;
+}
+
+.flex-column > label {
+    color: #151717;
+    font-weight: 600;
+}
+
+.inputForm {
+    border: 1.5px solid grey;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.spanf {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.spans {
+    text-decoration: none;
+    margin-top: -39px;
+    color: #2d79f3;
+    font-weight: 500;
+}
+
+.button-submit {
+    margin-top: 5px !important;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: #252727;
+}
+
+.p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+/* .btn:hover {
+    border: 1px solid #2d79f3;
+} */
+
+.error {
+    text-align: end;
+    width: 100%;
+    margin-top: 78px;
+    color: red;
+    font-size: 13px;
+}
+
+.btng {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btng:hover {
+    border: 1px solid #ffffff;
+}
+
+.inputForm {
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Space for the icon */
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #666;
+}
+
+.password-toggle123  {
+     position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+
+}
+
+.button-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.button-submit:hover {
+    background-color: #000000;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 76px;
+    margin-left: -250px;
+}
+.Row-contain{
+    width: 100% !important;
+}
+
+.input-modal{
+    width: 100%;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.modal-bt1{
+    
+    padding: 0.6em 1.2em;background-color: blue !important;
+}
+.modal-bt2{
+    background-color: black !important;
+}
+.error1{
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-left: 22px;
+}
+
+
+/* Signup.css */
+
+/* Style for the Send OTP button */
+.button-send-otp {
+    background-color: #007bff; /* Default button color */
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    font-weight: 600;
+    width: 100px;
+}
+
+.button-send-otp.verified {
+    background-color: #28a745; /* Green color for verified */
+}
+
+/* Style for the verified icon */
+.button-send-otp .icon {
+    margin-right: 8px;
+}
+.back-login{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.edit-button123{
+    width: 10%;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
+.input-modal1{
+    border: 2px black;
+}
+@media only screen and (max-width: 600px) {
+    .loginimg {
+        margin-top: 100px !important;
+        margin-left: -40px !important;
+        width: 500px !important;
+    }
+    .header {
+        margin-bottom: -55px;
+        margin-top: 50px;
+        margin-left: 50px !important;
+        font-size: 45px;
+    }
+    .back {
+        height: 1200px !important;
+        width: 125% !important;
+        background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    }
+    .form {
+        margin-left: 19px !important;
+        height: 603px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        background-color: #ffffff;
+        padding: 30px;
+        width: 380px !important;
+        border-radius: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .password-toggle123  {
+        position: absolute;
+        right: 10px;
+        left: 290px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #888;
+        width: 17px;
+    }
+
+   
+  }
+  
+  @media only screen and (max-width: 390px) {
+    .loginimg {
+        margin-top: 100px !important;
+        margin-left: -10px !important;
+        width: 400px !important;
+    }
+    .header {
+        margin-bottom: -55px;
+        margin-top: 50px;
+        margin-left: 50px !important;
+        font-size: 40px;
+    }
+    .back {
+        height: 1200px !important;
+        width: 135% !important;
+        background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    }
+    .form {
+        margin-left: 15px !important;
+        height: 603px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        background-color: #ffffff;
+        padding: 30px;
+        width: 357px !important;
+        border-radius: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .password-toggle123  {
+        position: absolute;
+        right: 10px;
+        left: 260px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #888;
+        width: 17px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 360px) {
+    .loginimg {
+        margin-top: 100px !important;
+        margin-left: -5px !important;
+        width: 400px !important;
+    }
+    .header {
+        margin-bottom: -55px;
+        margin-top: 50px;
+        margin-left: 46px !important;
+        font-size: 40px;
+    }
+    .back {
+        height: 1200px !important;
+        width: 135% !important;
+        background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    }
+    .form {
+        margin-left: 10px !important;
+        height: 603px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        background-color: #ffffff;
+        padding: 30px;
+        width: 340px !important;
+        border-radius: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .password-toggle123  {
+        position: absolute;
+        right: 10px;
+        left: 250px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #888;
+        width: 17px;
+    }
+   
+  }
+  
+  

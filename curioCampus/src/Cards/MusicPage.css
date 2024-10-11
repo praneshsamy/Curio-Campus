@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color; */
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.musbackground {
+    /* background-image: linear-gradient(120deg, #a1c4fd, #c2e9fb); */
+    background-color: #2c3e50;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.musnav {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+   
+
+
+.musline1 {
+    width: 600px;
+    margin-left: -600px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+
+.musline2{
+    width: 600px;
+    margin-left: -600px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 0 15px;
+
+}
+.musline3{
+    width: 600px;
+    margin-left: -600px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.musline4{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.muscard1, .muscard2, .muscard3, .muscard4 {
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top:  60px; /* Space between cards */
+    /* width: 65%; */
+    /* gap: 2px; */
+    height: fit-content;
+    border: 5px solid black;
+    background:white; /* White background with transparency */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+  backdrop-filter: blur(10px); /* Blurring effect behind the element */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  /* padding: 20px; Padding inside the card */
+  color: #343a40; /* Text color */
+}
+
+
+.muscard1:hover, .muscard2:hover, .muscard3:hover, .muscard4:hover {
+    transform: scale(1.05);
+}
+
+.musbackground1 {
+    background-color: rgb(18,97,89) !important;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f5ebeb;
+}
+
+.mustext1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #f5ebeb;
+}
+
+.mustext2, .mustext3 {
+    font-size: 22px;
+    text-align: center;
+    color: #f8f3f3;
+    margin-top: 5px;
+}
+
+.musbutton-container {
+    display: flex; /* Makes the container a flexbox */
+    justify-content: center; /* Centers content horizontally */
+    margin-top: 15px; /* Optional: adds some space above the button */
+}
+
+.musbutton {
+    background-color: rgb(48, 48, 224);
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.musbutton:hover {
+    background-color: rgb(30, 30, 190);
+}
+.devcard{
+    width: 350px !important;
+    margin-left: 20px !important;
+}
+
+
+/* .button {
+    background-color: rgb(48, 48, 224);
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(30, 30, 190);
+} */
+
+.musshare-icon {
+    width: 30px;
+    margin-top: -3px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.musshare-icon:hover {
+    transform: scale(1.1);
+}
+.card-gap {
+    margin-bottom: 50px !important; /* Adjust the value as needed */
+  }
+  
+

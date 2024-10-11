@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Development Section */
+.creativity-background {
+    background-color: #ffffff !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.creativity-nav {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000 !important;
+    margin-bottom: 10px;
+}
+
+/* Descriptions (Text) */
+.creativity-line1, .creativity-line2, .creativity-line3 {
+    width: 600px;
+    margin: 40px auto;
+    font-size: 22px !important;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-left: -620px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+/* User Cards */
+.full-content-up {
+
+   /* Allow wrapping for responsiveness */
+     /* Spaces the two sides evenly */
+    margin-top: 30px;
+}
+
+/* Individual Card */
+.-creativitycard1, .creativity-card2, .creativity-card3, .creativity-card4 {
+    margin-left: 50px;
+    margin-top:  60px; /* Space between cards */
+    width: 90%;
+    height: fit-content;
+    border: 5px solid black;
+    background: rgba(255, 255, 255, 0.2); /* White background with transparency */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+  backdrop-filter: blur(10px); /* Blurring effect behind the element */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  /* padding: 20px; Padding inside the card */
+  color: #343a40; /* Text color */
+}
+
+.creativity-background1 {
+   background-image: linear-gradient(120deg, #37a4ec, #070808 100%) !important;
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside card */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Profile Picture */
+.profile-pic-up {
+    width: 100px; /* Size of the profile picture */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #3498db;
+}
+
+/* Profile Name and Role */
+.profile-name-up {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0f7eee;
+    margin-bottom: 5px;
+}
+
+.profile-role-up {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social-icons-up {
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons-up .chat-up, 
+.social-icons-up .video-up, 
+.social-icons-up .record-up {
+    font-size: 50px; /* Size of social icons */
+    margin: 0 10px;
+    gap: 50px;
+    display: flex;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons-up .chat-up {
+    color: #241bcf; /* Color for chat icon */
+}
+
+.social-icons-up .video-up {
+    color: #149131; /* Color for video icon */
+}
+
+.social-icons-up .record-up {
+    color: #ff4757; /* Color for record icon */
+}
+
+.social-icons-up .chat-up:hover,
+.social-icons-up .video-up:hover,
+.social-icons-up .record-up:hover {
+    transform: scale(1.1);
+    color: #fff; /* Change color on hover */
+}
+
+
+
+.creativity-text1 {
+    font-size: 1.5rem; /* Larger font for username */
+    color: #343a40;
+    text-align: center; /* Dark gray text */
+    margin-bottom: 0.5rem; /* Space below the username */
+  }
+  
+  .creativity-text3 {
+    text-align: center;
+    font-size: 1.2rem; /* Slightly larger for skills */
+    color: #6c757d; /* Muted gray */
+  }
+  
+  .info-row-up {
+    font-size: 1rem; /* Standard size for headings */
+    color: #007bff; /* Blue for headings */
+    margin-top: 1rem; /* Space above the headings */
+  }
+  
+  .info-value-up {
+    font-size: 1rem; /* Standard size for values */
+    color: #343a40; /* Dark gray for values */
+    margin-bottom: 0.5rem; /* Space below the values */
+  }
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+    .devline1, .devline2, .devline3 {
+        width: 90%; /* Full width on smaller screens */
+    }
+    
+    .full-content-up {
+        flex-direction: column; /* Stack boxes vertically */
+    }
+    
+    .devcard1, .devcard2, .devcard3, .devcard4 {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+.creativity-background {
+    background-color: #061b30;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .creativity-nav {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .creativity-line1,
+  .creativity-line2,
+  .creativity-line3 {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .creativity-card {
+    width: 350px !important; /* Set the card width to 350px */
+    margin: 0 auto; /* Center the card within the column */
+  }

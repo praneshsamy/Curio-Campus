@@ -1,0 +1,707 @@
+.card35-row{
+  margin-top: 100px;
+}
+
+.card35 {
+  width: 19em;
+  height: 25.5em;
+  background: transparent !important;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px !important;
+  background-color: #b2f2bb !important ; /* Mint Green */
+
+color: #333 !important; /* Dark Gray for text */
+  /* background-color: rgb(152, 190, 240) !important; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px ;
+}
+
+.card35 span {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card35 .info11 {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+.info12{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+
+}
+.info13{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+
+
+
+.card35 .img6 {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card35 .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card35 a {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.card35 a:hover {
+  color: red;
+}
+
+.card35 button {
+  padding: 0.8em 1.7em;
+  display: block;
+margin-left: 20px !important;
+ 
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  width: 220px !important;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+}
+
+.card35 button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.img-manoj{
+  width: 100% !important;
+  height: 80px !important;
+  border-radius: 10px !important;
+}
+.card35 {
+  background-color: #fff; /* Optional: Background color of the card */
+  border: 1px solid #ddd; /* Optional: Border of the card */
+  border-radius: 8px; /* Optional: Rounded corners */
+  padding: 15px; /* Optional: Inner padding for card content */
+  margin-bottom: 20px; /* Space below each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+/* Add this if you want space between cards horizontally */
+@media (min-width: 768px) { /* Adjust breakpoint as necessary */
+  
+  .card35{
+    margin-left: 30px;
+  }
+  /* Remove margin from the last card in each row */
+  .card35:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+.card15 {
+  width: 19em;
+  height: 25.5em;
+  background: transparent !important;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px !important;
+  background-color: #b2f2bb !important ; /* Mint Green */
+
+      /* background-color: #2c3e50 !important;  */
+      color: #f5f5f5 !important; /* Light gray or white text */
+ 
+  /* background-color: rgb(152, 190, 240) !important; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px ;
+  margin-left: 120px !important;
+  height: 400px !important;
+  margin-top: 0px !important;
+}
+.card15 span {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card15 .info11{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+.info12{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+.info13{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+
+.card15 .img6 {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card15 .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card15 a {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.card15 a:hover {
+  color: red;
+}
+
+.card15 button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin-left: 20px !important;
+  margin-top: -4px !important;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  width: 220px !important;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+}
+
+.card15 button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.img-manoj{
+  width: 100% !important;
+  height: 80px !important;
+  border-radius: 10px !important;
+}
+.card15 {
+  background-color: #fff; /* Optional: Background color of the card */
+  border: 1px solid #ddd; /* Optional: Border of the card */
+  border-radius: 8px; /* Optional: Rounded corners */
+  padding: 15px; /* Optional: Inner padding for card content */
+  margin-bottom: 20px; /* Space below each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+@media (min-width: 600px) { /* Adjust breakpoint as necessary */
+  .card15 {
+    margin-right: 20px; /* Space to the right of each card */
+  }
+  
+  /* Remove margin from the last card in each row */
+  .card15:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+.card25 {
+  width: 19em;
+  height: 25.5em;
+  background: transparent !important;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px !important;
+  background-color: #b2f2bb !important ; /* Mint Green */
+  color: #333 !important; /* Dark Gray for text */
+  /* background-color: rgb(152, 190, 240) !important; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px ;
+  margin-left: 220px !important;
+  height: 400px !important;
+  margin-top: 0px !important;
+}
+
+.card25 span {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card25 .info11 {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  font-size: 0.78em;
+  margin: 1em;
+}
+.info12 {
+font-weight: 600;
+color: rgb(0, 0, 0);
+display: block;
+text-align: center;
+font-size: 0.78em;
+margin: 1em;
+}
+.info13 {
+font-weight: 600;
+color: rgb(0, 0, 0);
+display: block;
+text-align: center;
+font-size: 0.78em;
+margin: 1em;
+}
+
+.card25 .img6 {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card25 .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card25 a {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.card25 a:hover {
+  color: red;
+}
+
+
+
+
+
+.img-manoj {
+  width: 100% !important;
+  height: 80px !important;
+  border-radius: 10px !important;
+}
+
+.card25 {
+  background-color: #fff; /* Optional: Background color of the card */
+  border: 1px solid #ddd; /* Optional: Border of the card */
+  border-radius: 8px; /* Optional: Rounded corners */
+  padding: 15px; /* Optional: Inner padding for card content */
+  margin-bottom: 20px; /* Space below each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+@media (min-width: 992px) { /* Adjust breakpoint as necessary */
+  
+  
+  /* Remove margin from the last card in each row */
+  .card25:nth-child(4n) {
+      margin-right: 0;
+  }
+}
+.bt-pro{
+  padding: 0.8em 1.7em;
+  display: block;
+  margin-left: 20px !important;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  width: 220px !important;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+
+}
+.bt-pro:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.bt-pro2{
+  padding: 0.8em 1.7em;
+  display: block;
+  margin-left: 20px !important;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  width: 220px !important;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+
+}
+.bt-pro2:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.bt-pro1{
+  padding: 0.8em 1.7em;
+  display: block;
+  margin-left: 20px !important;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  width: 220px !important;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+
+}
+.bt-pro1:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.card35:hover, .card15:hover, .card25:hover {
+  transform: scale(1.05); /* Slightly increases the size of the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a more prominent shadow on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+@media (max-width: 600px) {
+/* Adjust Navbar for smaller screens */
+.sticky-navbar {
+  padding: -10px 0;
+}
+
+.sticky-navbar .navbar-brand {
+  font-size: 20px;
+}
+
+.sticky-navbar .buttonlogin5 {
+  width: 90px;
+  font-size: 14px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+
+.images-carsal1 {
+  width: 60% !important;
+  margin-left: 200px !important;
+}
+.images-carsal12{
+  width: 60% !important;
+  margin-left: 200px !important;
+}
+.images-carsal13{
+  width: 60% !important;
+  margin-left: 200px !important;
+}
+
+
+.card15  {
+ 
+  margin-left:50px !important;
+  padding: 10px;
+}
+.card35{
+  margin-left: 50px !important;
+
+}
+.card25 {
+  width: 19em;
+  height: 25.5em;
+  background: transparent !important;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid rgb(158, 156, 156);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px !important;
+  background-color: #b2f2bb !important ; /* Mint Green */
+  color: #333 !important; /* Dark Gray for text */
+  /* background-color: rgb(152, 190, 240) !important; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px ;
+  margin-left: 50px !important;
+  height: 400px !important;
+  margin-top: 0px !important;
+}
+
+
+.card35 .img-manoj,
+.card15 .img-manoj,
+.card25 .img-manoj {
+  width: 100px;
+  height: 100px;
+}
+
+.rating-container {
+  margin-bottom: 10px;
+}
+
+/* Adjust text and buttons */
+.slogan, .slogan2, .slogan3,
+ .offlvideocont, .livechatcont {
+  font-size: 16px;
+  margin-top: 50px;
+
+}
+.videocont1{
+  margin-top: -130px !important;
+}
+
+.buttonlogin5 {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 200px !important;
+ }
+ .buttonlogin6 {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: -100px;
+ }
+/* Adjust Footer */
+.footer-row {
+  flex-direction: column;
+  align-items: center;
+}
+.font11{
+  font-size: 30px;
+  /* margin-left: 700px;
+ margin-top: -45px; */
+ margin-left: 197px !important;
+  margin-top: -19px;
+ text-align: left !important;
+  font-weight: 800;
+  width: 40%;
+
+}
+.font12{
+font-size: 30px;
+/* margin-left: 700px;
+margin-top: -45px; */
+margin-left: 157px !important;
+margin-top: -19px;
+text-align: left !important;
+font-weight: 800;
+width: 40%;
+
+}
+.font13{
+font-size: 30px;
+/* margin-left: 700px;
+margin-top: -45px; */
+margin-left: 157px !important;
+margin-top: -19px;
+text-align: left !important;
+font-weight: 800;
+width: 40%;
+
+}
+
+.footer-col {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer form input {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.footer form button {
+  width: 80%;
+}
+
+.icons i {
+  font-size: 20px;
+  margin: 0 5px;
+}
+.offlinevideo{
+  width: 50%;
+  margin-top: 50px !important;
+  margin-left: -30px;
+}
+
+.font11{
+margin-left: 140px !important;
+}
+.font12{
+margin-left: 120px !important;
+}
+.font13{
+margin-top: 10px !important;
+margin-left: 130px !important;
+}
+}
+@media (max-width: 600px) {
+.buttonlogin5{
+  margin-left: 170px !important;
+}
+.buttonlogin6{
+  margin-left: -50px !important;
+}
+.startup-width{
+  width: 103% !important;
+  height: 1500px !important;
+}
+.card15{
+  margin-left: 15px !important;
+}
+.card25{
+  margin-left: 15px !important;
+}
+.card35{
+  margin-left: 15px !important;
+}
+.font{
+  margin-left:130px !important;
+}
+}
+@media (max-width: 414px) {
+.card15{
+  margin-left: 30px !important;
+}
+.buttonlogin5{
+  margin-left: 200px !important;
+}
+.buttonlogin6{
+  margin-left: -100px !important;
+}
+.card25{
+  margin-left: 30px !important;
+}
+.card35{
+  margin-left: 30px !important;
+}
+
+}
+@media (max-width: 430px) {
+.card15{
+  margin-left: 55px !important;
+}
+.card25{
+  margin-left: 55px !important;
+}
+.card35{
+  margin-left: 55px !important;
+}
+
+}
+@media (max-width: 360px) {
+.card15{
+  margin-left: 15px !important;
+}
+.card25{
+  margin-left: 15px !important;
+}
+.card35{
+  margin-left: 15px !important;
+
+}
+.buttonlogin5{
+margin-left: 180px !important;
+}
+.buttonlogin6{
+margin-left: -50px !important;
+}
+}
+@media (max-width: 390px) {
+.card15{
+  margin-left: 29px !important;
+}
+.card25{
+  margin-left: 29px !important;
+}
+.card35{
+  margin-left: 29px !important;
+
+}
+.buttonlogin5{
+margin-left: 180px !important;
+}
+.buttonlogin6{
+margin-left: -50px !important;
+}
+}

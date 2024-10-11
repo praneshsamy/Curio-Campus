@@ -1,0 +1,485 @@
+
+
+.login-background {
+  height: 670px;
+  /* background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%); */
+  background-color:#061b30;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-header {
+  margin-bottom: -60px;
+  margin-top: 50px;
+  color:rgb(241, 243, 243);
+
+
+  margin-left: 127px;
+  font-size: 66px; 
+}
+
+.login-image {
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 100%; /* Adjust size as needed */
+}
+
+.login-form {
+  margin-left: 60px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 480px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login-form123 {
+  margin-left: 80px;
+  margin-top: 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: px;
+  padding-bottom: 40px;
+  width: 480px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+
+.form-group label {
+  color: #151717;
+  font-weight: 600;
+}
+
+.input-group {
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.form-control12 {
+  height: 50px !important;
+  margin-left: 120px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(116, 113, 113);
+  width:60%;
+  height: 70%;
+  margin-top: 10px;
+}
+
+.form-control12:focus {
+  outline: none;
+}
+.form-control22 {
+  height: 50px !important;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(116, 113, 113);
+  width: 100%;
+  height: 100%;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.input-group:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.forgot-password {
+  margin-top: -10px !important;
+  margin-left: 274.4px;
+  font-size: 14px;
+  color: #2d79f3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-buttonlogin12{
+  margin: 20px 0 10px 0;
+  background-color: #151717;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: -7px;
+  margin-left:9px;
+  margin-bottom: -10px;
+
+}
+.submit-buttonlogin13{
+  margin: 20px 0 10px 0;
+  background-color: #080808;
+  border: none;
+  color: white;
+  display: fixed;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+  margin-top:-25px;
+  margin-left:351px;
+  margin-bottom: -10px;
+
+}
+
+.submit-button:hover {
+  background-color: #252727;
+}
+
+.signup-prompt {
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #2d79f3;
+}
+
+.or-with {
+  text-align: center;
+  font-size: 14px;
+  margin: -1px 0;
+  margin-left: 10px;
+  margin-top:-5px !important;
+}
+
+.social-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-button {
+  margin-top: px;
+  width: 100%;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+  border: 1px solid #ededef;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.social-button:hover {
+  border: 1px solid #2d79f3;
+}
+
+.form-error {
+  color: red;
+  font-size: 13px;
+  text-align: end;
+  margin-top: 0px;
+  margin-bottom: -20px;
+}
+.form-error123 {
+  color: red;
+  font-size: 13px;
+  text-align: start;
+  margin-top: 0px;
+  margin-left: 125px;
+  margin-bottom: -20px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000000; /* Adjust color as needed */
+}
+
+.password-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+.usericon{
+  margin-left: 358px;
+  margin-top: -39px;
+}
+.Row-contain{
+  width: 100% !important;
+}
+/* OTP container styling */
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Label for OTP heading */
+.otp-container h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* OTP input field styling */
+.otp-container input[type="text"] {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+/* Input focus effect */
+.otp-container input[type="text"]:focus {
+  border-color: #4CAF50; /* Green border when focused */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4); /* Subtle green glow */
+}
+
+/* Verify OTP button */
+.otp-container .submit-buttonlogin {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+ .submit-buttonlogin99 {
+  background-color: #1c1d1c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.otp-container .submit-buttonlogin:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional error message styling (if needed) */
+.otp-container .otp-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-form {
+    margin-left: 4px !important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 395px !important;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .login-image {
+    margin-top: 100px;
+    margin-left: -53px !important;
+    width: 100%; /* Adjust size as needed */
+  }
+  .login-background {
+    width: 126% !important;
+    height: 1200px !important;
+    background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-header {
+    margin-bottom: -60px;
+    margin-top: -200px !important;
+    margin-left: 50px !important;
+    font-size: 45px !important; 
+  }
+
+}
+@media only screen and (max-width: 414px) {
+  .login-form{
+    width:380px !important ;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .login-form {
+    margin-left: 4px !important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 385px !important;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .login-image {
+    margin-top: 100px;
+    margin-left: -53px !important;
+    width: 100%; /* Adjust size as needed */
+  }
+  .login-background {
+    width: 126% !important;
+    height: 1200px !important;
+    background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-header {
+    margin-bottom: -60px;
+    margin-top: -200px !important;
+    margin-left: 50px !important;
+    font-size: 45px !important; 
+  }
+
+}
+
+@media only screen and (max-width: 390px) {
+  .login-form {
+    margin-left: 1px !important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 352px !important;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .forgot-password {
+    margin-top: -10px !important;
+    margin-left: 220px;
+    font-size: 14px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .login-image {
+    margin-top: 100px;
+    margin-left: -42px !important;
+    width: 100%; /* Adjust size as needed */
+  }
+  .login-background {
+    width: 126% !important;
+    height: 1200px !important;
+    background-image: linear-gradient(120deg, #ffffff 0%, #41b7ed 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-header {
+    margin-bottom: -60px;
+    margin-top: -250px !important;
+    margin-left: 38px !important;
+    font-size: 40px !important; 
+  }
+
+}
+@media only screen and (max-width: 375px) {
+  .login-form {
+    margin-left: 1px !important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 352px !important;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .login-form {
+    margin-left: -1px !important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 340px !important;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .forgot-password {
+    margin-top: -10px !important;
+    margin-left: 200px;
+    font-size: 14px;
+    color: #2d79f3;
+
+}
+.login-header {
+  margin-bottom: -60px;
+  margin-top: -250px !important;
+  margin-left: 40px !important;
+  font-size: 40px !important; 
+}
+}

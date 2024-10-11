@@ -1,0 +1,241 @@
+/* General reset and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+/* Background Section */
+.danbackground {
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.danbackground {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/* Navigation Headers */
+ .dannav {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.dannav {
+    color: #000000 !important;
+}
+
+/* Descriptions (Text) */
+.danline1, .danline2, .danline3 {
+    width: 600px;
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-left: -620px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+.danline1 {
+    margin-left: -630px;
+    margin-top: 50px;
+}
+
+.danline2, .danline3 {
+    margin-left: -630px;
+    margin-top: 20px;
+}
+
+/* User Cards */
+.full-content-up, .full-content {
+    margin-top: 30px;
+}
+
+/* Individual Cards */
+.dancard1, .dancard2, .dancard3, .dancard4 {
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 90%;
+    height: fit-content;
+    border: 5px solid black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #343a40;
+    transition: transform 0.2s ease;
+}
+
+.dancard1, .dancard2, .dancard3, .dancard4 {
+    background-image: linear-gradient(120deg, #37a4ec, #070808 100%);
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside card */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.dancard1:hover, .dancard2:hover, .dancard3:hover, .dancard4:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Picture */
+.profile-pic-up, .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #3498db;
+}
+
+/* Profile Name and Role */
+.profile-name-up, .profile-name, .dantext1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0f7eee;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dantext1 {
+    font-size: 1.5rem; /* Larger font for username */
+    color: #343a40; /* Dark gray text */
+    margin-bottom: 0.5rem; /* Space below the username */
+}
+.dantext3{
+    text-align: center;
+    font-size: 1.2rem; /* Slightly larger for skills */
+    color: #6c757d; /* Muted gray */
+}
+
+/* Profile Role */
+.profile-role-up, .profile-role, .dantext2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dantext2 {
+    font-size: 22px;
+    margin-top: 5px;
+    color: #f8f3f3;
+}
+
+/* Social Icons */
+.social-icons-up, .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons-up .chat-up, 
+.social-icons-up .video-up, 
+.social-icons-up .record-up,
+.social-icons .chat, 
+.social-icons .video, 
+.social-icons .record {
+    font-size: 50px;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons-up .chat-up,
+.social-icons .chat {
+    color: #241bcf;
+}
+
+.social-icons-up .video-up,
+.social-icons .video {
+    color: #149131;
+}
+
+.social-icons-up .record-up,
+.social-icons .record {
+    color: #ff4757;
+}
+
+.social-icons-up .chat-up:hover,
+.social-icons-up .video-up:hover,
+.social-icons-up .record-up:hover,
+.social-icons .chat:hover,
+.social-icons .video:hover,
+.social-icons .record:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Button */
+.danbutton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.danbutton {
+    background-color: rgb(48, 48, 224);
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.danbutton:hover {
+    background-color: rgb(30, 30, 190);
+}
+
+/* Info Row */
+.info-row-up, .info-row {
+    font-size: 1rem;
+    color: #007bff;
+    margin-top: 1rem;
+}
+
+.info-value-up, .info-value {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .devline1, .devline2, .devline3, .danline1, .danline2, .danline3 {
+        width: 90%;
+    }
+
+    .full-content-up, .full-content {
+        flex-direction: column;
+    }
+
+    .devcard1, .devcard2, .devcard3, .devcard4,
+    .dancard1, .dancard2, .dancard3, .dancard4 {
+        width: 100%;
+    }
+}
+.card-gap {
+    margin-bottom: 50px !important; /* Adjust as necessary for your desired gap */
+  }
+  
